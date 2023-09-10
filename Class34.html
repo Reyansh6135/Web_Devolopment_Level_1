@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1><center> JavaScript Objects 2</center></h1>
+<h2 id="x"> </h2>
+<p id="y"> </p>
+<p id="z"></p>
+<p id="m"></p>
+<p id="n"></p>
+<p id="k"></p>
+<p id="l"></p>
+<p id="w"></p>
+<script>
+//JavaScript Number Object 
+//The JavaScript number object enables you to represent a numeric value. It may be integer or floating-point
+var a=15
+var b=2.5
+document.write(a+b+"<br><br>")
+var n=new Number(10)
+document.write(n+"<br><br>")
+//JavaScript Boolean Object:This object represents value in 2 states either true or false
+//The deafault value of JavaScript boolean object is false
+var c=new Boolean(a>b)
+document.write(c+"<br><br>")
+//JavaScript String Object:This object represents a sequence of characters
+var firstname="Reyansh "
+var lastname="Pittampally"
+document.write("Hi my name is "+firstname + lastname)
+//JavaScript Array:This object represents the collection of different data types into a single place
+var name=["demo",24,2.5,true]
+
+//JavaScript Date: This object can be used to get your month and date
+var today=new Date()
+document.getElementById("x").innerHTML=today
+//Math Objects
+document.getElementById("y").innerHTML=Math.sqrt(25)
+//Random
+document.getElementById("z").innerHTML=Math.random()
+//Power
+document.getElementById("m").innerHTML=Math.pow(5,2)
+//Floor
+document.getElementById("n").innerHTML=Math.floor(4.7)
+//Ceil
+document.getElementById("k").innerHTML=Math.ceil(4.7)
+//round
+document.getElementById("l").innerHTML=Math.round(4.4)
+//absolute
+document.getElementById("w").innerHTML=Math.abs(-6)
+
+</script>
+
+</body>
+</html>

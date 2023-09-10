@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.a{
+background-color:aqua;
+width: 200px; height: 200px;
+animation-name: color_change;
+animation-duration: 3s ;
+animation-iteration-count: 2 ;
+}
+@keyframes color_change{
+from{
+background-color: aqua;
+}
+to{
+background-color:bisque;
+}
+}
+div.b{
+background-color:orangered;
+width: 150px; height:150px;
+animation-name:b ;
+animation-duration:4s ;
+animation-iteration-count:infinite ;
+}
+@keyframes b{
+0%{
+background-color: orangered;
+}
+25%{
+background-color: green;
+}
+50%{
+background-color: powderblue;
+}
+75%{
+background-color: plum;
+}
+100%{
+background-color: yellow;
+}
+}
+div.c{
+background-color:cornflowerblue;
+width: 100px; height:100px; 
+animation-name:c ;
+animation-duration:8s ;
+animation-iteration-count:4 ;
+position:relative;
+}
+@keyframes c{
+0%{
+left:0px;
+top:0px;
+}
+25%{
+left:200px;
+top:0px
+}
+50%{
+left:200px;
+top:200px;
+}
+75%{
+left:0px;
+top:200px;
+}
+100%{
+left:0px;
+top:0px;
+}
+}
+
+</style>
+</head>
+<body>
+    <h1><center> Animations</center></h1>
+<div class="a">
+
+</div>
+<br>
+<div class="b">
+
+</div>
+<br>
+<div class="c">
+
+</div>
+</body>
+</html>
